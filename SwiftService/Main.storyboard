@@ -44,11 +44,16 @@
                                     <segue destination="PJ1-yo-rda" kind="showDetail" action="showViewController:sender:" id="E2g-jm-Fyi"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="s3e-1Q-DqG">
+                                <rect key="frame" x="70" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="buttonSignin" destination="RpN-tJ-8nT" id="As3-60-mEA"/>
+                        <outlet property="imageLogo" destination="s3e-1Q-DqG" id="faa-Pq-zIr"/>
                         <outlet property="textPassword" destination="axY-8Z-DlX" id="aUM-Md-aXh"/>
                         <outlet property="textUsername" destination="q3d-Pw-njF" id="rjb-9V-Tmr"/>
                     </connections>
@@ -136,6 +141,7 @@
     </scenes>
     <resources>
         <image name="clients" width="21" height="20"/>
+        <image name="logo" width="199" height="28"/>
         <image name="ordersSelected" width="16" height="19"/>
         <image name="setting" width="19" height="20"/>
     </resources>

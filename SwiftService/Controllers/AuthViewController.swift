@@ -16,38 +16,47 @@ class AuthViewController: UIViewController {
     @IBOutlet var textPassword: UITextField?
     @IBOutlet var buttonSignin: UIButton?
     @IBOutlet var buttonDemo: UIButton?
+    @IBOutlet var imageLogo: UIImageView?
 
     override func viewDidLoad() {
 
         super.viewDidLoad()
 
-        if let btn = buttonSignin{
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg")!)
 
+        if let btn = buttonSignin {
+            btn.layer.cornerRadius = 10
+            btn.clipsToBounds = true
+
+            btn.snp.makeConstraints({ make in
+                make.bottom.equalToSuperview().offset(-97)
+                make.left.equalToSuperview().offset(18)
+                make.right.equalToSuperview().offset(-18)
+                make.height.equalTo(56)
+            })
         }
 
-        buttonSignin!.layer.cornerRadius = 10
-        buttonSignin!.clipsToBounds = true
 
-        buttonSignin!.snp.makeConstraints({ make in
-            make.bottom.equalToSuperview().offset(-97)
-            make.left.equalToSuperview().offset(18)
-            make.right.equalToSuperview().offset(-18)
-            make.height.equalTo(56)
-        })
-
-        if let txt = textUsername{
-            txt.snp.makeConstraints({make in
+        if let txt = textUsername {
+            txt.snp.makeConstraints({ make in
                 make.width.equalToSuperview().offset(-18)
                 make.centerX.equalToSuperview()
                 make.bottom.equalToSuperview().offset(-276)
             })
         }
 
-        if let txt = textPassword{
-            txt.snp.makeConstraints({make in
+        if let txt = textPassword {
+            txt.snp.makeConstraints({ make in
                 make.width.equalToSuperview().offset(-18)
                 make.centerX.equalToSuperview()
                 make.bottom.equalToSuperview().offset(-207)
+            })
+        }
+
+        if let logo = imageLogo {
+            logo.snp.makeConstraints({ make in
+                make.centerX.equalToSuperview()
+                make.top.equalToSuperview().offset(115)
             })
         }
 
