@@ -229,6 +229,7 @@
 					"$(PROJECT_DIR)/SwiftService/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grotem.SwiftService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -246,6 +247,7 @@
 					"$(PROJECT_DIR)/SwiftService/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grotem.SwiftService;
 				PRODUCT_NAME = "$(TARGET_NAME)";

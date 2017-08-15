@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e701d1-77af-4258-8f7d-5f3465dae51e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/bg.imageset/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/bg.imageset/bg@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/bg.imageset/bg@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/logo.imageset/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/logo.imageset/logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/logo.imageset/logo@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/bg.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/logo.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconPassword.imageset/iconPassword.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconPassword.imageset/iconPassword@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconPassword.imageset/iconPassword@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconUsername.imageset/iconUsername.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconUsername.imageset/iconUsername@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconUsername.imageset/iconUsername@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconPassword.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SwiftService/Assets.xcassets/iconUsername.imageset/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftService.xcodeproj/project.xcworkspace/xcuserdata/dmazhukov.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/SwiftService.xcodeproj/project.xcworkspace/xcuserdata/dmazhukov.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftService.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/SwiftService.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftService/Controllers/AuthViewController.swift" afterPath="$PROJECT_DIR$/SwiftService/Controllers/AuthViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftService/Info.plist" afterPath="$PROJECT_DIR$/SwiftService/Info.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SwiftService/Main.storyboard" afterPath="$PROJECT_DIR$/SwiftService/Main.storyboard" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_5c41867fee004839493c746383c06000839a002e" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_SE_10.3_x86_64_1" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Project Settings" pinned="false" current-in-tab="false">
@@ -45,8 +47,8 @@
       <file leaf-file-name="AuthViewController.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SwiftService/Controllers/AuthViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -90,6 +92,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SwiftService" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="SwiftService" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,24 +113,186 @@
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="Frameworks" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
               <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
               <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
-              <item name="Controllers" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Cidr.FilesView">
-        <subPane>
-          <expand>
             <path>
-              <item name="SwiftService" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="SwiftService" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPad App - 76pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPad Pro App - 83.5pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPad Settings - 29pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPad Spotlight - 40pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPhone App - 60pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPhone Spotlight (iOS 5,6) &amp; Settings - 29pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="AppIcon" type="3ee73667:ImageSetNode" />
+              <item name="iPhone Spotlight - 40pt" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="bg" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="bg" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="clients" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="clients" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="iconPassword" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="iconPassword" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="iconUsername" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="iconUsername" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="logo" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="logo" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="ordersSelected" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="ordersSelected" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="setting" type="3ee73667:ImageSetNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="SwiftService" type="1d218c8b:XcodeProjectNode" />
+              <item name="SwiftService" type="fcab9f18:XcodeViewNode" />
+              <item name="Assets.xcassets" type="fcab9f18:XcodeViewNode" />
+              <item name="setting" type="3ee73667:ImageSetNode" />
+              <item name="Universal" type="fda6ba7f:ImageVariantNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +336,8 @@
       <updated>1502722527547</updated>
       <workItem from="1502722540280" duration="456000" />
       <workItem from="1502723006268" duration="636000" />
-      <workItem from="1502723721731" duration="2509000" />
+      <workItem from="1502723721731" duration="5210000" />
+      <workItem from="1502789259678" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1502725672566</created>
@@ -170,28 +346,35 @@
       <option name="project" value="LOCAL" />
       <updated>1502725672566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add logo and bg to auth screen">
+      <created>1502728273291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502728273291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3601000" />
+    <option name="totallyTimeSpent" value="10452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -210,7 +393,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add logo and bg to auth screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logo and bg to auth screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -230,6 +414,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SwiftService/Controllers/AuthViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="65" lean-forward="false" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="appcode.project-settings://8335ead5">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwiftService/Cartfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="appcode.project-settings://8335ead5">
       <provider selected="true" editor-type-id="AppCode.ProjectSettings">
         <state />
@@ -248,10 +453,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SwiftService/Assets.xcassets/clients.imageset/clients@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SwiftService/Controllers/AuthViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="435">
+          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -17,12 +17,14 @@ class AuthViewController: UIViewController {
     @IBOutlet var buttonSignin: UIButton?
     @IBOutlet var buttonDemo: UIButton?
     @IBOutlet var imageLogo: UIImageView?
+    @IBOutlet var imageUsername: UIImageView?
+    @IBOutlet var imagePassword: UIImageView?
 
     override func viewDidLoad() {
 
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg")!).withAlphaComponent(0.65)
 
         if let btn = buttonSignin {
             btn.layer.cornerRadius = 10
@@ -36,25 +38,49 @@ class AuthViewController: UIViewController {
             })
         }
 
+        if let btn = buttonDemo {
+            btn.snp.makeConstraints({ make in
+                make.centerX.equalToSuperview()
+                make.bottom.equalToSuperview().offset(-47)
+                make.width.lessThanOrEqualToSuperview()
+            })
+        }
+
 
         if let txt = textUsername {
             txt.snp.makeConstraints({ make in
-                make.width.equalToSuperview().offset(-18)
+                make.width.equalToSuperview().offset(-67 * 2)
                 make.centerX.equalToSuperview()
                 make.bottom.equalToSuperview().offset(-276)
             })
+
+            if let img = imageUsername {
+                img.snp.makeConstraints({ make in
+                    make.left.equalToSuperview().offset(27)
+                    make.bottom.equalTo(txt.snp.bottom)
+                })
+            }
+
         }
 
         if let txt = textPassword {
             txt.snp.makeConstraints({ make in
-                make.width.equalToSuperview().offset(-18)
+                make.width.equalToSuperview().offset(-67 * 2)
                 make.centerX.equalToSuperview()
                 make.bottom.equalToSuperview().offset(-207)
             })
+
+            if let img = imagePassword {
+                img.snp.makeConstraints({ make in
+                    make.left.equalToSuperview().offset(27)
+                    make.bottom.equalTo(txt.snp.bottom)
+                })
+            }
+
         }
 
-        if let logo = imageLogo {
-            logo.snp.makeConstraints({ make in
+        if let img = imageLogo {
+            img.snp.makeConstraints({ make in
                 make.centerX.equalToSuperview()
                 make.top.equalToSuperview().offset(115)
             })
