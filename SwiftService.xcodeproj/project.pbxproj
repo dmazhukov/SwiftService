@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6F782102F12EB0A763825EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7829E5A82886C763BE3876 /* Assets.xcassets */; };
+		6F782243E53E05A2C1B645A7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F782D1F2F113740A3845543 /* UIViewExtension.swift */; };
+		6F7822508DDE107917417E79 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F78243321248E4BF577CCF2 /* IQKeyboardManagerSwift.framework */; };
 		6F78287A03D076A9B7F131EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7829BBB0010B09C038E42C /* LaunchScreen.storyboard */; };
 		6F782EE534CD69B80606EE19 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 6F78206325759C7DFFA6CD00 /* Cartfile */; };
 		6F782F471D774F32D63448F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F782992A5720A98E0052181 /* AppDelegate.swift */; };
@@ -23,6 +25,7 @@
 		B19177A41F41FB730084F702 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B191779D1F41F7FD0084F702 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B19177A51F41FB730084F702 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B191779B1F41F7F70084F702 /* RxSwift.framework */; };
 		B19177A61F41FB730084F702 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B191779B1F41F7F70084F702 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1BE5E341F43209E0088FAAC /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F78243321248E4BF577CCF2 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,7 @@
 			files = (
 				B19177A21F41FB730084F702 /* RxCocoa.framework in Embed Frameworks */,
 				B19177A41F41FB730084F702 /* SnapKit.framework in Embed Frameworks */,
+				B1BE5E341F43209E0088FAAC /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
 				B19177A61F41FB730084F702 /* RxSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -44,10 +48,12 @@
 /* Begin PBXFileReference section */
 		6F78201060C10777E8A5789A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F78206325759C7DFFA6CD00 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		6F78243321248E4BF577CCF2 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = /Users/dmazhukov/projects/SwiftService/SwiftService/Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<absolute>"; };
 		6F7826A24906DFA8D40F1FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6F782992A5720A98E0052181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F7829E5A82886C763BE3876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F782BEEB3B0425AFFAE527B /* SwiftService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F782D1F2F113740A3845543 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B191778C1F41F2CD0084F702 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		B191778D1F41F2CD0084F702 /* ClientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
 		B191778E1F41F2CD0084F702 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +73,7 @@
 				B19177A11F41FB730084F702 /* RxCocoa.framework in Frameworks */,
 				B19177A51F41FB730084F702 /* RxSwift.framework in Frameworks */,
 				B191779E1F41F7FD0084F702 /* SnapKit.framework in Frameworks */,
+				6F7822508DDE107917417E79 /* IQKeyboardManagerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +89,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		6F782BC5225CC94DC97F34E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F782D1F2F113740A3845543 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6F782CE499E9F35B300CAD54 /* SwiftService */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +107,7 @@
 				6F782992A5720A98E0052181 /* AppDelegate.swift */,
 				B19177961F41F3100084F702 /* Main.storyboard */,
 				6F78206325759C7DFFA6CD00 /* Cartfile */,
+				6F782BC5225CC94DC97F34E0 /* Extensions */,
 			);
 			path = SwiftService;
 			sourceTree = "<group>";
@@ -122,6 +138,7 @@
 				B191779F1F41F8010084F702 /* RxCocoa.framework */,
 				B191779D1F41F7FD0084F702 /* SnapKit.framework */,
 				B191779B1F41F7F70084F702 /* RxSwift.framework */,
+				6F78243321248E4BF577CCF2 /* IQKeyboardManagerSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +219,7 @@
 				6F782F471D774F32D63448F8 /* AppDelegate.swift in Sources */,
 				B19177931F41F2CD0084F702 /* MainViewController.swift in Sources */,
 				B19177951F41F2CD0084F702 /* SettingsViewController.swift in Sources */,
+				6F782243E53E05A2C1B645A7 /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +245,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftService/Carthage/Build/iOS",
+					"\"${PROJECT_DIR}/SwiftService/Carthage/Build/iOS\"/**",
 				);
 				INFOPLIST_FILE = SwiftService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -245,6 +264,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftService/Carthage/Build/iOS",
+					"\"${PROJECT_DIR}/SwiftService/Carthage/Build/iOS\"/**",
 				);
 				INFOPLIST_FILE = SwiftService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;

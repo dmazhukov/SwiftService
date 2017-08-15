@@ -25,6 +25,7 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg")!).withAlphaComponent(0.65)
+        self.view.disableKeybordWhenTapped = true
 
         if let btn = buttonSignin {
             btn.layer.cornerRadius = 10
